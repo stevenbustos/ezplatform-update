@@ -1,0 +1,21 @@
+last_update_check: 1613594785
+provisioning:
+    folder_name: provisioning
+docker:
+    compose_filename: docker-compose.yml
+    network_name: ezupdate
+    network_prefix_port: 42
+composer:
+    http_basic:
+        -
+            host: updates.ez.no
+            login: ccd7bc03cbd66dce780f173fd334371f
+            password: 4378b353953facd63253f2d1c97370a3
+        -
+            host: updates.ibexa.co
+            login: ccd7bc03cbd66dce780f173fd334371f
+            password: 4378b353953facd63253f2d1c97370a3
+        -
+            host: updates.ez.no
+            login: ccd7bc03cbd66dce780f173fd334371f
+            password: 4378b353953facd63253f2d1c97370a3
